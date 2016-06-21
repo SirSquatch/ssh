@@ -43,7 +43,7 @@
 # Copyright 2016 Your name here, unless otherwise noted.
 #
 class ssh {
-	include config;
+	include config
 	include install
 	include service
 
