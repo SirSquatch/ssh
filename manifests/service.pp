@@ -6,6 +6,6 @@ class ssh::service {
 		enable 		=> true,
 		hasstatus 	=> true,
 		hasrestart 	=> true,
-		require 	=> File['/etc/ssh/sshd-config'],
+		require 	=> File['/etc/ssh/sshd_config'],
 	}
 }
